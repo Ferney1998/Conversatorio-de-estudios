@@ -90,8 +90,12 @@ WSGI_APPLICATION = 'studybud.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.pg2',
+        'NAME': 'd1bp26g7s0q7ah',
+        'HOST': 'ec2-44-208-88-195.compute-1.amazonaws.com',
+        'USER': 'bascaxchkpvupr',
+        'PASSWORD': '2fb18f3ad7004c7bb60c1f52f6b3d4462c7766434aa68be0fec4ac15186be020',
+        'PORT': '5432',
     }
 }
 
